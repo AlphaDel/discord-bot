@@ -6,6 +6,10 @@ const { ROLES_ID } = require('./constants');
 const client = new Discord.Client();
 
 client.on('ready', () => {
+  client.user.setPresence({
+    activity: { name: '⚡️By Wuttinan!' },
+    status: 'online',
+  });
   console.log('I am ready!');
 });
 
