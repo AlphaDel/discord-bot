@@ -4,13 +4,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "start:dev": "node -r dotenv/config src/index.js"
+    "start:dev": "nodemon -r dotenv/config src/index.js"
   },
   "repository": "https://github.com/AlphaDel/discord-bot.git",
   "author": "Wuttinan.C",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
   }
 }
