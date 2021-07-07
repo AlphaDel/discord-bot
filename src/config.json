@@ -1,0 +1,5 @@
+{
+  "prefix": "!",
+  "cooldown": 3,
+  "opendota_api": "https://api.opendota.com/api"
+}
